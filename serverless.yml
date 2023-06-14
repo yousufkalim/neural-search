@@ -1,4 +1,6 @@
 service: neural-sentence-search
+package:
+  individually: true
 provider:
   name: aws
   runtime: nodejs18.x
