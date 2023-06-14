@@ -1,8 +1,5 @@
 service: neural-sentence-search
 
-package:
-  individually: true
-
 provider:
   name: aws
   runtime: nodejs18.x
@@ -25,6 +22,7 @@ layers:
       - nodejs18.x
 
 package:
+  individually: true
   exclude:
     - node_modules/**
     - package.json
